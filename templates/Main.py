@@ -68,11 +68,11 @@ while 1:
     if j == k:
         break
 
-    d = input(f'Input "{string[i + 1:j]}": ')
-    while not d:
+    Input = input(f'Input "{string[i + 1:j]}": ')
+    while not Input:
         print("Please input valid word")
-        d = input(f'Input "{string[i + 1:j]}": ')
-    new_string = new_string + d
+        Input = input(f'Input "{string[i + 1:j]}": ')
+    new_string = new_string + Input
     i = j + 1
 
 print(new_string)
