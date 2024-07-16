@@ -30,7 +30,7 @@ I hope one day you can visit, although the only way to get here now is (Verb (en
 while True:
     x = input("Please choose a template(1,2 or 3):")
     if x != '1' and x != '2' and x != '3':
-        print("Invlaid choice")
+        print("Invaliid choice")
         continue
     break
 
